@@ -1,11 +1,11 @@
 # Estimating PD model using Logistic Regression in Python
 
-This repository contains a simple implementation of default probability model estimation. The data was prepared in advance. The dataset contains only categorical variables. The process was prepared in python.
+This repository contains a simple implementation of Probability of Default (PD) model estimation. The data was prepared in advance. Dataset contains only categorical variables. The process was prepared in Python.
 
 ### Analytical process carried out:
 - transformation of variables according to the Weight of Evidence measure
 - filtering variables using Information Value
-- model estimation using logistic regression
+- model estimation using Logistic Regression
 - evaluation of model fit quality using ROC and PRC
 - scorecard development
 - performing the scoring process on the test set
